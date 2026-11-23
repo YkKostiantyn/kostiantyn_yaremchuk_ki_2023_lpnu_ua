@@ -47,3 +47,19 @@ ci.bat
 - [Архітектура агента](docs/architecture.md)
 - [Інструкція з використання](docs/usage.md)
 - [Журнал взаємодії з AI](docs/ai-log.md)
+
+## Проєкт
+
+Це кросплатформний TypeScript-застосунок, який друкує рівно `Hello, World!`.
+
+### Команди
+
+```bash
+npm ci
+npm run build
+npm test
+npm start
+./ci.sh
+```
+
+Складання створює артефакти `build/hello.js`, `build/hello` та `build/hello.cmd`.
