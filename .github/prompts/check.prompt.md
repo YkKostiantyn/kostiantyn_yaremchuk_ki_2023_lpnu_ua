@@ -6,7 +6,7 @@ agent: build-engineer
 # Передумови
 
 - Команди перевірки мають читати стан репозиторію лише без змін.
-- Рекомендується запускати після `/init`.
+- Рекомендується запускати після `/lab-init`.
 - На Windows перевірку `./ci.sh` замінюють еквівалентним запуском `ci.bat`.
 
 # Дії
@@ -19,7 +19,7 @@ agent: build-engineer
 6. Запусти `npx vitest run -t BasicAddition`.
 7. Виконай `git check-ignore build node_modules`.
 8. Перевір, що кожен SKILL.md містить розділи «Вхідні дані», «Перевірки», «Приклад входу» та «Типовий сценарій помилки».
-9. Перевір, що `init.prompt.md` посилається на 5 промпт-файлів у правильному порядку: git-init, create-project, create-build, create-actions, check.
+9. Перевір, що `lab-init.prompt.md` посилається на 5 промпт-файлів у правильному порядку: git-init, create-project, create-build, create-actions, check.
 10. Скануй конфігураційні файли workflow і репозиторію на явні токени/секрети без читання або розкриття секретів.
 11. Створення `node_modules/` і `build/` під час CI допустиме, бо вони ігноруються Git.
 12. Після перевірок виконай `git status --porcelain`; якщо змінились відстежувані файли, пункт repository-state — FAIL.
