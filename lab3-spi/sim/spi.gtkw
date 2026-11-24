@@ -1,0 +1,19 @@
+[*] GTKWave save file
+[timestart] 0
+@28
+tb_spi_master.clk
+tb_spi_master.rst_n
+tb_spi_master.start
+tb_spi_master.busy
+tb_spi_master.cs_n
+tb_spi_master.sck
+tb_spi_master.mosi
+tb_spi_master.miso
+@22
+tb_spi_master.dut.state[2:0]
+tb_spi_master.tx_data[7:0]
+tb_spi_master.slave_rx[7:0]
+tb_spi_master.slave_tx[7:0]
+tb_spi_master.rx_data[7:0]
+@28
+tb_spi_master.done
